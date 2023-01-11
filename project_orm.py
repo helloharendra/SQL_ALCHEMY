@@ -10,7 +10,7 @@ class UserInput(Base):
 
     id=Column(Integer, primary_key=True)
     house_area=Column(Integer)
-    no_of_rooms = Column(Integer)
+    no_of_rooms =Column(Integer)
     age = Column(Integer)
     location =Column(String)
 
